@@ -1,0 +1,54 @@
+body {
+    background-color: antiquewhite;
+    width:80%;
+    max-width:800px;
+    margin:auto;
+}
+
+.tarolo {
+    border-style: double;
+    border-width: 1px;
+    margin: 10px;
+}
+
+picture img{
+    width:100%;
+    border-style: double;
+    border-width: 1px;
+    margin: 10px;
+}
+
+h1 {
+    border-style: double;
+    border-width: 1px;
+    margin: 10px;
+}
+img {
+    width:100%;
+    border-style: double;
+    border-width: 1px;
+    margin: 10px;
+
+}
+.galeria {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    border-style:double;
+    border-width:1px;
+    margin:10px
+}
+
+.galeria img{
+    width:100%; 
+    padding:2pt;
+    margin:2pt;
+    border:1px solid white;
+}
+.kep{    
+    border-style: double;
+    border-width: 1px;
+    margin: 10px;
+}
+*{
+    box-sizing: border-box;
+}
